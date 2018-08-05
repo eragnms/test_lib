@@ -2,4 +2,13 @@
 
 #include <iostream>
 
-void t_hello();
+namespace libtl {
+        void t_hello();
+}
+
+class TestPrint
+{
+public:
+        TestPrint();
+        void print();
+};

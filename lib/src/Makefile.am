@@ -1,4 +1,4 @@
-AM_CPPFLAGS = -I$(top_srcdir)/lib/include
+AM_CPPFLAGS = -I$(top_srcdir)/libtl/include
 noinst_LIBRARIES = libtl.a
 include_HEADERS = \
 ../include/libtl.h
